@@ -1,5 +1,5 @@
 ```
-import com.example.*;
+import com.example.jobs.developers.Developer;
 
 public class Main{
   public static Developer dev;
