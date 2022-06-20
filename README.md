@@ -7,14 +7,15 @@ public class Main{
   public static void main(String[] args){
     dev = new Developer();
     
-    dev.name = "olioli";
-    dev.age = 15;
-    dev.languages = {"Python", "Java", "C#"};
-    dev.frameworks = {"Spring", "Unity"};
-    dev.ide = {"InteliJ IDEA", "PyCharm", "Intelij Rider"};
-    dev.tools = {"GitHub"};
-    dev.webservers = {"Apache2", "Tomcat"};
-    dev.databases = {"MySQL"};
+    dev.setName("olioli");
+    dev.setDiscord("olioli#2630");
+    dev.setAge(15);
+    dev.setLanguages({"Python", "Java", "C#"});
+    dev.setFrameworks({"Unity"});
+    dev.setIde({"InteliJ IDEA", "PhpStorm", "Rider"});
+    dev.setTools({"GitHub"});
+    dev.setWebservers({"Apache2", "Tomcat"});
+    dev.setDatabases({"MySQL"});
   }
 }
 
